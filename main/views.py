@@ -2,9 +2,9 @@ import json
 from math import ceil
 from django.shortcuts import redirect, render  
 import urllib.request  
-from . import key
+from django.conf import settings
 
-apid=key.id
+apid=settings.APID
    
 # Create your views here.  
   
