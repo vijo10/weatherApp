@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    height: 671px;
+    background: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+
+.container {
+    text-align: center;
+    padding-top: 170px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 10px;
+    color: black;
+}
+
+input::-webkit-input-placeholder {
+    color: black;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: 2px solid black;
+    width: 40%;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
