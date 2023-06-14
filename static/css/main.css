@@ -2,13 +2,13 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
-    height: 671px;
+    height: 100px;
     background: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
 }
 
 .container {
     text-align: center;
-    padding-top: 170px;
+    padding-top: 70px;
 }
 
 input[type="text"] {
