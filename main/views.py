@@ -37,9 +37,5 @@ def home(request):
             # If HTTPError 404 occurs, set error message in context dictionary
             if e.code == 404:
                 messages.error(request, f"{city.replace('+', ' ')} not found. Please enter a valid city name.")
-            else:
-                # If a different HTTP error occurs, re-raise the exception
-                raise e
-
     # Send dictionary to the index.html
     return render(request, 'home.html', context)
