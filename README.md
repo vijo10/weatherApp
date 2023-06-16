@@ -43,7 +43,7 @@ Make sure you have the following installed on your system:
    ```bash
    python manage.py runserver
   
-6.Open your web browser and access the application at **`http://localhost:8000`.**  
+6. Open your web browser and access the application at **`http://localhost:8000`.**  
      
 ## Contributing
 
