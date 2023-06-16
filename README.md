@@ -27,23 +27,33 @@ Make sure you have the following installed on your system:
    ```bash
    cd weather-app-django
 
-3. Install the required dependencies:
+3. Create a virtual environment (optional but recommended):
+
+  ```bash
+  python3 -m venv env
+     
+4. Activate the virtual environment:
+
+  ```bash
+  env\Scripts\activate
+
+5. Install the required dependencies:
    
    ```bash
    pip install -r requirements.txt
    
-4. Set up the API key:
+6. Set up the API key:
 
 - Sign up on **OpenWeatherMap** and obtain an API key.
 - Open the **`settings.py`** file in the **`weatherApp`** directory.
 - Replace **`'APID'`** with your actual API key in the **`OPENWEATHERMAP_API_KEY`** variable.
 
-5. Start the development server:
+7. Start the development server:
    
    ```bash
    python manage.py runserver
   
-6. Open your web browser and access the application at **`http://localhost:8000`.**  
+8. Open your web browser and access the application at **`http://localhost:8000`.**  
      
 ## Contributing
 
