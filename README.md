@@ -29,8 +29,8 @@ Make sure you have the following installed on your system:
 
 3. Create a virtual environment (optional but recommended):
 
-  ```bash
-  python3 -m venv env
+   ```bash
+   python3 -m venv env
      
 4. Activate the virtual environment:
 
