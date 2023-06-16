@@ -20,7 +20,7 @@ Make sure you have the following installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weather-app-django.git
+   git clone https://github.com/vijo10/weatherApp.git
    
 2. Navigate to the project directory:
    
