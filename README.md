@@ -34,8 +34,8 @@ Make sure you have the following installed on your system:
      
 4. Activate the virtual environment:
 
-  ```bash
-  env\Scripts\activate
+   ```bash
+   env\Scripts\activate
 
 5. Install the required dependencies:
    
