@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
@@ -6,14 +6,9 @@ body {
     background: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
 }
 
-.container {
-    text-align: center;
-    padding-top: 70px;
-}
-
 input[type="text"] {
     padding: 10px;
-    border: 2px solid black;
+    border: 1px solid grey;
     width: 100%;
     margin-top: 10px;
     color: black;
@@ -21,14 +16,4 @@ input[type="text"] {
 
 input::-webkit-input-placeholder {
     color: black;
-}
-
-input[type="submit"] {
-    padding: 10px;
-    border: 2px solid black;
-    width: 40%;
-    margin-top: 5px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
 }
